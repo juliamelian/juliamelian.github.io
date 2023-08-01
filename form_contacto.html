@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>¿Prontx para que nos conozcamos?</h1>
+    <h2>Antes, ¡contame un poco de vos!</h2>
+    <form>
+        <p>Nombre: <input type="text" name="nombre" required></p>
+        <p>Email: <input type="text" name="email" required></p>
+        <p>Número de contacto: <input type="text" name="telcontacto" required></p>
+        <p>Asunto <select name="tema" id="tema">
+            <option hidden selected disabled="consulta">-- Elige un tema --</option>
+            <option value="consulta">Consulta</option>
+            <option value="presupuesto">Solicitud de presupuesto</option>
+            <option value="sugerencia">Sugerencia</option>
+            <option value="otro">Otro</option>
+          </select></p>
+        <p>Detalles adicionales: <textarea type="text" name="Cuerpo" style="width: 200px; height: 100px;">  </textarea> <input
+            type="submit" value="Enviar"> </p>
+    <h2>¡Muchas gracias!</h2>
+      </form>
+</body>
+</html>

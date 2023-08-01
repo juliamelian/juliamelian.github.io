@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(232, 241, 144);
+}
+
+img {
+    border: 4px solid green;
+    border-radius: 20px;
+    width: 350px;
+}
+
+#botonsiguiente {
+    background-color: rgb(197, 189, 189);
+    border: 2px solid rgb(131, 123, 123);
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}

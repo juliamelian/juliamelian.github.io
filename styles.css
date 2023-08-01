@@ -1,0 +1,49 @@
+body{
+    background-color: #f9f1dc;
+    font-family: Brandon Grotesque;
+    color: #cf5b4e;
+    font-size: 120%
+}
+
+div.bienvenida{
+    background-color: #f9f1dc;
+    color: #cf5b4e;
+}
+
+.resaltado1{
+    background-color: #fae8a9;
+    font-size: 110%;
+}
+
+.resaltado2{
+    background-color: #fae8a9;
+}
+
+div.presentación, div.tabla, div.redes{
+    background-color: #f7e6cd
+}
+
+#advertencia{
+    font-style: italic; 
+}
+
+#mensaje {
+    background-color: rgb(218, 208, 208);
+    border: 2px solid rgb(131, 123, 123);
+    padding: 3px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 2px 2px 1px rgb(160, 158, 158);
+}
+
+#listadetrabajos {
+    border:2px solid #cf5b4e;
+    background-color: #f7e9b7;
+    border-radius: 10px;
+    width: 40%;
+}
+
+#muestratabla {
+    table-layout: fixed;
+    width: 70%;
+  }
